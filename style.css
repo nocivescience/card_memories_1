@@ -31,4 +31,11 @@ body .game .card-container {
   left: 50%;
   top: 50%;
   transform: translate(0px, 0px);
+  z-index: 1;
+  transition: all 1s ease-in-out;
+}
+body .game .card-container.hide {
+  transform: translate(-50px, -50px);
+  z-index: -1;
+  background-color: #0099ff;
 }/*# sourceMappingURL=style.css.map */
