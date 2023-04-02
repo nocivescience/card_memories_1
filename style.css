@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+body {
+  font-family: "Delicious Handrawn", cursive;
+}
+body .game {
+  height: 30vw;
+  position: relative;
+  perspective: 1000px;
+}
+body .game .container {
+  width: 200px;
+  height: 200px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50px, -50px) translateZ(-110px);
+  transition: all 1s ease-in-out;
+  z-index: -1;
+}
+body .game .container.show {
+  background-color: #fffb00;
+  transform: translate(-50px, -50px) translateZ(10px);
+  z-index: 2;
+}
+body .game .card-container {
+  width: 200px;
+  height: 200px;
+  background-color: #00ffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0px, 0px);
+}/*# sourceMappingURL=style.css.map */
