@@ -18,6 +18,9 @@ body .game .container {
   transition: all 1s ease-in-out;
   z-index: -1;
 }
+body .game .container h1 {
+  margin: 20px;
+}
 body .game .container.show {
   background-color: #fffb00;
   transform: translate(-50px, -50px) translateZ(10px);
@@ -35,7 +38,7 @@ body .game .card-container {
   transition: all 1s ease-in-out;
 }
 body .game .card-container.hide {
-  transform: translate(-50px, -50px);
+  transform: translate(-100px, -100px);
   z-index: -1;
   background-color: #0099ff;
 }/*# sourceMappingURL=style.css.map */
